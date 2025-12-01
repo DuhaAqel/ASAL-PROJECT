@@ -48,27 +48,3 @@ ul{
   
    
 }
-
-.mainList {
-    width: 80%;
-    
-}
-
-.mainList a {
-    color: #000;
-    font-weight: 800;
-    
-}
- 
-
-.bord{
-    
-    display: flex;
-    justify-content: space-evenly;
-    width: 70%;
-  
-}
-.bord li a:hover {
-    color:  #0097a7 ;  
-    transition: color 0.3s ease;  
-}
