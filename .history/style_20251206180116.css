@@ -176,3 +176,55 @@ body
     transform: translateY(-0.3125em);
     box-shadow: 0px 0px 5px rgba(37, 150, 190, 1);
 }
+.about
+{
+    padding: 0;
+}
+
+.aboutContainer
+{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.aboutContainerImg
+{
+    padding: 0;
+}
+
+.aboutContainerImg img
+{
+    height: 70vh;
+}
+
+.aboutContainerContent
+{
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   padding-top: 10rem; 
+}
+
+.aboutSectionHeader
+{
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.aboutContainerContent p
+{
+    font-size: 1.5rem;
+}
+.aboutContainerContent button
+{
+    width: 8vw;
+    color: white;
+    background-color: #2596be;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 0;
+}
