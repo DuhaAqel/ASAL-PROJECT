@@ -688,9 +688,8 @@ body
 
     #navBarList {
         flex-wrap: wrap;
-        gap: 0;
+        gap: 1rem;
         font-size: 0.9rem;
-        margin-top: 0 !important;
     }
 
     #navBarLogo {
