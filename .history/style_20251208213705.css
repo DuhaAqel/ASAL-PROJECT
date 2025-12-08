@@ -720,7 +720,7 @@ body
         padding: 0 1rem;
     }
     #navBarIcons {
-        display: none;
+        display: none; 
     }
     .hero {
         height: auto;
