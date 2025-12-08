@@ -698,33 +698,9 @@ body
       .burger-menu {
         display: block;
     }
-      #navBarList {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: white;
-        text-align: center;
-        padding: 1rem 0;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        position: absolute;
-        top: 70px;
-        left: 0;
-    }
-
-     #navBarList.show {
-        display: flex;
-    }
-      #navContainer {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    #navBarIcons {
-        display: none;
-    }
     .hero {
         height: auto;
-        padding-top: 4rem;  
+        padding-top: 4rem;   /* تعديل مهم */
         padding-bottom: 2rem;
         margin-bottom: 3rem;
     }

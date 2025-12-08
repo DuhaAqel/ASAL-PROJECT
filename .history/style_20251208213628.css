@@ -710,21 +710,9 @@ body
         top: 70px;
         left: 0;
     }
-
-     #navBarList.show {
-        display: flex;
-    }
-      #navContainer {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    #navBarIcons {
-        display: none;
-    }
     .hero {
         height: auto;
-        padding-top: 4rem;  
+        padding-top: 4rem;   /* تعديل مهم */
         padding-bottom: 2rem;
         margin-bottom: 3rem;
     }
