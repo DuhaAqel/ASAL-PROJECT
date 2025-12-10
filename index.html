@@ -25,15 +25,23 @@
                     <li><a class="navBarListAnchor" href="#reviews">Reviews</a></li>
                     <li><a class="navBarListAnchor" href="#blog">Blog</a></li>
                 </ul>
+
+                
 <div class="burger-menu" id="burgerMenu">
         <i class="fas fa-bars"></i>
     </div>
+    
                  <div id="navBarIcons">
+                    <img id="darkToggle" class="navIcon" src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png">
+
+
+        
                     <img class="navIcon" src="./SourceImages/RadnomLogos/search_icon.svg" alt="Search icon logo">
                     <img class="navIcon" src="./SourceImages/RadnomLogos/heart_black.svg" alt="Heart logo">
+                  
                 </div>
             </div>
-            
+            </div>
         </nav>
     </header>
  <!-- Section 1 Hero part, WELCOME TO BOOK STORE  -->
@@ -582,50 +590,6 @@
                         <img src="./SourceImages/RadnomLogos/calander_blue.svg" alt="CalanderLogo">
                         <img src="./SourceImages/RadnomLogos/heart_blue.svg" alt="HeartLogo">             
                     </div>
-                     <p class="arrivalParagraph">New Arrivals</p>
-                    <div class="arrivalContainerRowContentStars">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
-                    </div>
-<div class="arrivalContainerRowContentImg" >
-                        <button class="arrivalButton" type="button">Learn More</button> 
-                    </div>
-                </div>
-                <div class="arrivalContainerRowContent addShadow">
-                    <div class="arrivalContainerRowContentImg">
-                        <img class="arrivalPoster addZoom" src="./SourceImages/arrival/arrival_9.jpg">
-                    </div>
-<p class="arrivalParagraph">New Arrivals</p>
-                    <div class="arrivalContainerRowContentStars">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
-                    </div>
- <div class="arrivalContainerRowContentImg" >
-                        <button class="arrivalButton" type="button">Learn More</button> 
-                    </div> 
-                </div>
- <div class="arrivalContainerRowContent addShadow">
-                    <div class="arrivalContainerRowContentImg">
-                        <img class="arrivalPoster addZoom" src="./SourceImages/arrival/arrival_10.jpg">
-                    </div>
-
-                    <p class="arrivalParagraph">New Arrivals</p>
-                    <div class="arrivalContainerRowContentStars">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-solid.svg" alt="starLogo">
-                        <img class="arrivalStar" src="./SourceImages/RadnomLogos/star-half-stroke-solid.svg" alt="HalfstarLogo">
-                    </div>
-                    <div class="arrivalContainerRowContentImg" >
-                        <button class="arrivalButton" type="button">Learn More</button> 
-                    </div>
                 </div>
             </div>
         </div>
@@ -691,6 +655,13 @@
     burger.addEventListener("click", () => {
         navList.classList.toggle("show");
     });
+
+     const toggleBtn = document.querySelector("#darkToggle");
+
+toggleBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+
 </script>
 
 </body>
