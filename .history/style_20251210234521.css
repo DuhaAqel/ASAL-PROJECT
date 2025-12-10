@@ -51,7 +51,7 @@ body
 #navContainer
 {
     display:  flex;
-justify-content: space-between;
+    justify-content: space-around;
 }
 
 #navBarList
@@ -689,7 +689,7 @@ justify-content: space-between;
       display: flex;
     align-items: center;
     justify-content: center;
-    width: 3vh;   
+    width: 3vh;   /* نفس حجم icons */
     height: 3vh;
     padding: 0;
 }
@@ -701,13 +701,12 @@ justify-content: space-between;
 @media (max-width: 768px) {
 
     
-   #navContainer {
-    display: flex;
-    justify-content: space-between;
-     align-items: center;
-    padding: 0 2rem;   /* بيضبط للموبايل وآيباد */
-}
-
+    /* NAV BAR */
+    #navContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
 
     #navBarList {
         flex-wrap: wrap;
@@ -903,13 +902,13 @@ justify-content: space-between;
 }
 
 
-  #navContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;   /* بيضبط للموبايل وآيباد */
-}
-
+    #navContainer {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100%;
+        padding: 0 2rem;
+    }
 
     #navBarIcons {
     display: flex !important;

@@ -51,7 +51,7 @@ body
 #navContainer
 {
     display:  flex;
-justify-content: space-between;
+    justify-content: space-around;
 }
 
 #navBarList
@@ -686,28 +686,17 @@ justify-content: space-between;
     background: none;
     cursor: pointer;
     font-size: 1.3rem;
-      display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 3vh;   
-    height: 3vh;
-    padding: 0;
-}
-
-.dark-toggle i {
-    font-size: 1.4rem; 
 }
 
 @media (max-width: 768px) {
 
     
-   #navContainer {
-    display: flex;
-    justify-content: space-between;
-     align-items: center;
-    padding: 0 2rem;   /* بيضبط للموبايل وآيباد */
-}
-
+    /* NAV BAR */
+    #navContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
 
     #navBarList {
         flex-wrap: wrap;
@@ -903,13 +892,13 @@ justify-content: space-between;
 }
 
 
-  #navContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;   /* بيضبط للموبايل وآيباد */
-}
-
+    #navContainer {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100%;
+        padding: 0 2rem;
+    }
 
     #navBarIcons {
     display: flex !important;

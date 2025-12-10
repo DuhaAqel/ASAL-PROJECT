@@ -25,23 +25,15 @@
                     <li><a class="navBarListAnchor" href="#reviews">Reviews</a></li>
                     <li><a class="navBarListAnchor" href="#blog">Blog</a></li>
                 </ul>
-
-                
 <div class="burger-menu" id="burgerMenu">
         <i class="fas fa-bars"></i>
     </div>
-    
                  <div id="navBarIcons">
-                    <img id="darkToggle" class="navIcon" src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png">
-
-
-        
                     <img class="navIcon" src="./SourceImages/RadnomLogos/search_icon.svg" alt="Search icon logo">
                     <img class="navIcon" src="./SourceImages/RadnomLogos/heart_black.svg" alt="Heart logo">
-                  
                 </div>
             </div>
-            </div>
+            
         </nav>
     </header>
  <!-- Section 1 Hero part, WELCOME TO BOOK STORE  -->
@@ -656,12 +648,10 @@
         navList.classList.toggle("show");
     });
 
-     const toggleBtn = document.querySelector("#darkToggle");
-
-toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
-});
-
+      const toggleBtn = document.querySelector(".dark-toggle");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
 </script>
 
 </body>

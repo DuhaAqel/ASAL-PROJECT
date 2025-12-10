@@ -32,10 +32,6 @@
     </div>
     
                  <div id="navBarIcons">
-                    <img id="darkToggle" class="navIcon" src="https://cdn-icons-png.flaticon.com/512/6714/6714978.png">
-
-
-        
                     <img class="navIcon" src="./SourceImages/RadnomLogos/search_icon.svg" alt="Search icon logo">
                     <img class="navIcon" src="./SourceImages/RadnomLogos/heart_black.svg" alt="Heart logo">
                   
@@ -656,12 +652,10 @@
         navList.classList.toggle("show");
     });
 
-     const toggleBtn = document.querySelector("#darkToggle");
-
-toggleBtn.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
-});
-
+      const toggleBtn = document.querySelector(".dark-toggle");
+        toggleBtn.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
 </script>
 
 </body>
