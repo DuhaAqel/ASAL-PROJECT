@@ -754,7 +754,7 @@ body
     }
 
     .heroContainerContent button {
-        width: 70%;       
+        width: 70%;        /* كان 40vw = غلط */
         max-width: 250px;
         margin: auto;
     }
