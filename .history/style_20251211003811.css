@@ -1284,15 +1284,3 @@ body.dark #footerButton {
     background-color: #2596be !important;
     color: #fff !important;
 }
-body.dark .reviewsContainerContent {
-    color: #ffffff !important;
-}
-
-body.dark .reviewsContainerHeader p,
-body.dark .reviewsContainerParagraph p {
-    color: #ffffff !important;
-}
-
-body.dark .reviewsContainerRowContentStars img {
-    filter: brightness(1.8);
-}
