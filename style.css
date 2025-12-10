@@ -697,6 +697,14 @@ justify-content: space-between;
 .dark-toggle i {
     font-size: 1.4rem; 
 }
+#footerUL a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footerUL a:hover {
+    color: #2596be;
+}
 
 @media (max-width: 768px) {
 
@@ -752,9 +760,12 @@ justify-content: space-between;
         flex-direction: row;
         padding: 0px; 
     }
-    #navBarIcons {
-        display: none;
-    }
+   #navBarIcons {
+    display: flex !important;
+    align-items: center;
+    gap: 1rem;
+}
+
     .hero {
         height: auto;
         padding-top: 4rem;  
@@ -813,12 +824,27 @@ justify-content: space-between;
         margin: auto;
     }
 
+   
+    .serviceContainer {
+        width: 100% !important;
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 1rem !important;
+        padding: 1rem !important;
+        box-sizing: border-box !important;
+    }
+
     .serviceContainerContent {
-        max-width: 90%;
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        border-radius: 12px;
+        padding: 1.2rem !important;
+        box-sizing: border-box !important;
     }
 
     .serviceContainerContent img {
-        width: 30%;
+        width: 40% !important;
     }
 
     .arrivalContainerRow1 {
@@ -1257,4 +1283,16 @@ body.dark #footerInput {
 body.dark #footerButton {
     background-color: #2596be !important;
     color: #fff !important;
+}
+body.dark .reviewsContainerContent {
+    color: #ffffff !important;
+}
+
+body.dark .reviewsContainerHeader p,
+body.dark .reviewsContainerParagraph p {
+    color: #ffffff !important;
+}
+
+body.dark .reviewsContainerRowContentStars img {
+    filter: brightness(1.8);
 }
