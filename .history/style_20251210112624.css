@@ -852,4 +852,170 @@ body
     }
 }
 
+/* =============================
+   📱 iPad Pro Responsive Fix  
+   Width: 1024px → 1366px
+=============================*/
+@media (min-width: 1024px) and (max-width: 1366px) {
 
+    /* Body Full width */
+    body {
+        width: 100%;
+        max-width: 100% !important;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    #navContainer {
+        width: 100%;
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    #navBarList {
+        gap: 2rem;
+        font-size: 1.2rem;
+    }
+
+
+    /* HERO SECTION */
+    .hero {
+        height: auto;
+        padding-top: 8rem;
+        padding-bottom: 3rem;
+    }
+
+    .heroContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 100%;
+    }
+
+    .heroContainerContent h1 {
+        font-size: 3.5rem;
+    }
+
+    .heroContainerContent p {
+        font-size: 1.25rem;
+    }
+
+    .heroContainerContent button {
+        width: 22vw;
+        max-width: 260px;
+    }
+
+    .heroContainerContentImg img {
+        height: 40vh;
+        max-width: 100%;
+    }
+
+
+    /* SERVICES */
+    .serviceContainer {
+        padding: 0 2rem;
+        gap: 2rem;
+    }
+
+    .serviceContainerContent {
+        max-width: 22vw;
+    }
+
+
+    /* ABOUT SECTION */
+    .aboutContainer {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .aboutContainerImg img {
+        height: 45vh;
+        width: auto;
+    }
+
+    .aboutContainerContent {
+        padding-top: 5rem;
+        padding-right: 2rem;
+    }
+
+    .aboutContainerContent button {
+        width: 20vw;
+        max-width: 250px;
+    }
+
+
+    /* FEATURED BOOKS */
+    .scroll-box {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        gap: 1rem;
+    }
+
+    .book {
+        flex: 0 0 13rem;
+    }
+
+
+    /* ARRIVALS */
+    .arrivalContainerRow1 {
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .arrivalContainerRowContent {
+        width: 23vw;
+        min-width: 260px;
+    }
+
+    .arrivalButton {
+        width: 18vw;
+        max-width: 220px;
+    }
+
+
+    /* REVIEWS */
+    .reviewsContainer {
+        gap: 1.5rem;
+    }
+
+    .reviewsContainerContent {
+        width: 25vw;
+    }
+
+
+    /* DIGITAL BOOK */
+    .digitalBook {
+        height: 35vh;
+        padding-left: 2rem;
+        display: flex;
+        align-items: end;
+    }
+
+    .digitalBookButton {
+        width: 20vw;
+        max-width: 250px;
+        margin: 0;
+    }
+
+
+    /* BLOG */
+    .blogInnerContainer {
+        width: 40vw;
+        min-width: 350px;
+    }
+
+
+    /* FOOTER */
+    .footerContainer {
+        padding: 3rem 2rem;
+        gap: 3rem;
+    }
+
+}

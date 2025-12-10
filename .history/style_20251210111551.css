@@ -852,4 +852,124 @@ body
     }
 }
 
+/* iPad Pro 11" + 12.9" */
+@media (min-width: 992px) and (max-width: 1366px) {
 
+    /* NAVBAR */
+    #navContainer {
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    #navBarList {
+        gap: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    #navBarLogo {
+        height: 5vh;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        height: auto;
+        padding-top: 8rem;
+        padding-bottom: 4rem;
+    }
+
+    .heroContainer {
+        flex-direction: row;
+        gap: 5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .heroContainerContent h1 {
+        font-size: 3.5rem;
+    }
+
+    .heroContainerContent p {
+        font-size: 1.3rem;
+    }
+
+    .heroContainerContent button {
+        width: 20vw;
+        max-width: 300px;
+    }
+
+    .heroContainerContentImg img {
+        height: 40vh;
+    }
+
+    /* ABOUT SECTION */
+    .aboutContainer {
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .aboutContainerImg img {
+        height: 45vh;
+    }
+
+    .aboutContainerContent {
+        padding-top: 5rem;
+    }
+
+    .aboutContainerContent p {
+        font-size: 1.3rem;
+    }
+
+    .aboutContainerContent button {
+        width: 20vw;
+        max-width: 300px;
+    }
+
+    /* SERVICES */
+    .serviceContainerContent {
+        max-width: 25vw;
+    }
+
+    /* ARRIVAL ITEMS */
+    .arrivalContainerRowContent {
+        width: 30vw;
+    }
+
+    .arrivalButton {
+        width: 20vw;
+        max-width: 280px;
+    }
+
+    /* REVIEWS */
+    .reviewsContainerContent {
+        width: 35vw;
+    }
+
+    /* DIGITAL BOOK BANNER */
+    .digitalBook {
+        height: 40vh;
+        background-size: cover;
+        display: flex;
+        align-items: end;
+        justify-content: start;
+        padding-left: 5rem;
+    }
+
+    .digitalBookButton {
+        margin: 0;
+        width: 20vw;
+        max-width: 260px;
+    }
+
+    /* BLOG */
+    .blogInnerContainer {
+        width: 40vw;
+    }
+
+    /* FOOTER */
+    .footerContainer {
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+}

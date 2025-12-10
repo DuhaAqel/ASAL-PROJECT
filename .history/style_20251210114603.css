@@ -852,4 +852,145 @@ body
     }
 }
 
+@media (min-width: 768px) and (max-width: 1100px) {
 
+    html, body {
+        overflow-x: hidden !important;
+        max-width: 100% !important;
+    }
+
+    #navContainer {
+        padding: 0 2rem;
+        justify-content: space-between;
+    }
+
+    #navBarList {
+        gap: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    #navBarLogo {
+        height: 5vh;
+    }
+
+    .hero {
+        height: auto;
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+    }
+
+    .heroContainer {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3rem !important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .heroContainerContent h1 {
+        font-size: 3rem !important;
+    }
+
+    .heroContainerContent p {
+        font-size: 1.2rem !important;
+    }
+
+    .heroContainerContentImg img {
+        height: 35vh !important;
+        width: auto;
+    }
+
+    .serviceContainer {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .serviceContainerContent {
+        flex: 1; 
+        min-width: 0;
+        padding: 1rem !important;
+        margin: 0;
+    }
+
+    .serviceContainerContent img {
+        width: 30%;
+    }
+
+    .aboutContainer {
+        flex-direction: row;
+        gap: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .aboutContainerImg img {
+        width: 45%;
+        height: auto;
+    }
+
+    .aboutContainerContent {
+        width: 50%;
+        padding-top: 3rem;
+    }
+
+    .aboutContainerContent button {
+        width: 50%;
+    }
+
+    .arrivalContainer,
+    .featured-books {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .arrivalContainerRow1 {
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .arrivalContainerRowContent {
+        width: 40%;
+    }
+
+    .reviewsContainer {
+        gap: 2rem;
+        flex-wrap: wrap;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .reviewsContainerContent {
+        width: 45%;
+    }
+
+    .digitalBook {
+        height: 40vh;
+        background-position: center;
+    }
+
+    .digitalBookButton {
+        margin-left: 3rem;
+        margin-top: 12rem;
+        width: 40%;
+    }
+
+    .blogContainer {
+        gap: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .blogInnerContainer {
+        width: 45%;
+    }
+
+    .footerContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

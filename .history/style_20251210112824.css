@@ -853,3 +853,62 @@ body
 }
 
 
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    /* ناف بار */
+    #navContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 2rem;
+    }
+
+    #navBarList {
+        gap: 1.5rem;
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        padding-top: 8rem;
+        height: auto;
+    }
+
+    .heroContainer {
+        flex-direction: row;
+        gap: 3rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .heroContainerContent h1 {
+        font-size: 3rem;
+    }
+
+    .heroContainerContent p {
+        font-size: 1.2rem;
+    }
+
+    .heroContainerContentImg img {
+        height: 40vh;
+    }
+
+    /* about section */
+    .aboutContainer {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .aboutContainerImg img {
+        height: 45vh;
+    }
+
+    /* reviews */
+    .reviewsContainerContent {
+        width: 40vw;
+    }
+
+    /* blog */
+    .blogInnerContainer {
+        width: 45vw;
+    }
+}
