@@ -400,6 +400,7 @@ body
     transform: scale(1.2);
 }
 
+
 .reviews
 {
     margin-bottom: 3rem;
@@ -410,17 +411,21 @@ body
     display: flex;
     justify-content: center;
     gap: 2rem;
+   
 }
 
 .reviewsContainerContent
 {
     width: 20vw;
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+
     padding: 0.5rem;
     padding-left: 1rem;
     gap: 0.5rem;
+    
     box-shadow: 0px 0px 10px rgba(37, 150, 190, 0.5);
 }
 
@@ -443,6 +448,7 @@ body
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     align-content: center;
 }
 .reviewsContainerProfileQuote img
@@ -466,7 +472,11 @@ body
 .reviewsContainerRowContentStars
 {
     display: flex;
+    
 }
+
+
+
 .digitalBook
 {
     height: 50vh;
@@ -479,14 +489,20 @@ body
 {
     color: white;
     background-color: #2596be;
+
     margin-left:  8.2rem;
     margin-top: 20.5rem;
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+   
     padding-left: 1rem;
     padding-right: 1rem;
+    
+    
     border: 0px;
 }
+
 
 .blog
 {
@@ -565,12 +581,18 @@ body
     justify-content: space-between;
 }
 
+
+
 .footer
 {
     background-color: #eaeaea;
+   
+
     padding: 0.8rem;
     padding-left: 3rem;
     padding-right: 3rem;
+    
+    
 }
 
 .footerContainer
@@ -586,6 +608,7 @@ body
     font-size: 1.15rem;
     font-weight: 600;
     text-align: center;
+
     margin-top: 1rem;
     margin-bottom: 1.6rem;
 
@@ -636,14 +659,18 @@ body
 
 #footerInput
 {
+
+
     text-align: center;
     color: gray;
     background-color: lightgray;
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     margin-bottom: 0.25rem;
+
     border-radius: 1rem;
     border: 0px;
 }
@@ -652,10 +679,12 @@ body
 {
     color: white;
     background-color: #2596be;
+
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+
     border-radius: 1rem;
     border: 0px;
 }
@@ -667,187 +696,3 @@ body
     text-align: center;
 }
 
-
-.burger-menu {
-    display: none;
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: black;
-}
-
-
-@media (max-width: 768px) {
-
-    
-    /* NAV BAR */
-    #navContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-
-    #navBarList {
-        flex-wrap: wrap;
-        gap: 0;
-        font-size: 0.9rem;
-        margin-top: 0 !important;
-    }
-
-    #navBarLogo {
-        height: 4vh;
-    }
-
-      .burger-menu {
-        display: block;
-    }
-      #navBarList {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: white;
-        text-align: center;
-        padding: 1rem 0;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        position: absolute;
-        top: 70px;
-        left: 0;
-    }
-
-     #navBarList.show {
-        display: flex;
-    }
-      #navContainer {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    #navBarIcons {
-        display: none;
-    }
-    .hero {
-        height: auto;
-        padding-top: 4rem;  
-        padding-bottom: 2rem;
-        margin-bottom: 3rem;
-    }
-
-    .heroContainer {
-        flex-direction: column;
-        gap: 2rem;
-        padding-left: 0;
-        text-align: center;
-        align-items: center;
-    }
-
-    .heroContainerContent h1 {
-        font-size: 2rem;
-    }
-
-    .heroContainerContent p {
-        font-size: 1rem;
-    }
-
-    .heroContainerContent button {
-        width: 70%;        /* كان 40vw = غلط */
-        max-width: 250px;
-        margin: auto;
-    }
-
-    .heroContainerContentImg img {
-        width: 80%;       /* تعديل مهم */
-        height: auto;
-    }
-
-    /* ABOUT SECTION */
-    .aboutContainer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .aboutContainerImg img {
-        height: auto;     /* بدل 40vh */
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .aboutContainerContent {
-        padding-top: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-
-    .aboutContainerContent button {
-        width: 70%;
-        max-width: 250px;
-        margin: auto;
-    }
-
-    /* SERVICES */
-    .serviceContainerContent {
-        max-width: 90%;
-    }
-
-    .serviceContainerContent img {
-        width: 30%;
-    }
-
-    /* ARRIVAL SECTION */
-    .arrivalContainerRow1 {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .arrivalContainerRowContent {
-        width: 80%;
-    }
-
-    .arrivalButton {
-        width: 70%;
-        max-width: 250px;
-    }
-
-    /* REVIEWS */
-    .reviewsContainer {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .reviewsContainerContent {
-        width: 90%;
-    }
-
-    /* DIGITAL BOOK BANNER */
-    .digitalBook {
-        height: auto;
-        padding: 2rem 0;
-        display: flex;
-        justify-content: center;
-    }
-
-    .digitalBookButton {
-        margin: 0;             /* إلغاء الـ 25vh */
-        width: 70%;
-        max-width: 250px;
-    }
-
-    /* BLOG */
-    .blogInnerContainer {
-        width: 95vw;
-    }
-
-    /* FOOTER */
-    .footerContainer {
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-    }
-
-    #footerUL {
-        padding: 0;
-    }
-
-    #socialMediaLogos {
-        justify-content: center;
-        gap: 1rem;
-    }
-}

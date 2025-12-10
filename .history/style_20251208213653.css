@@ -678,7 +678,6 @@ body
 
 @media (max-width: 768px) {
 
-    
     /* NAV BAR */
     #navContainer {
         flex-direction: column;
@@ -688,9 +687,8 @@ body
 
     #navBarList {
         flex-wrap: wrap;
-        gap: 0;
+        gap: 1rem;
         font-size: 0.9rem;
-        margin-top: 0 !important;
     }
 
     #navBarLogo {
@@ -722,11 +720,11 @@ body
         padding: 0 1rem;
     }
     #navBarIcons {
-        display: none;
+        display: none; /* يمكنك إظهارها لو بدك */
     }
     .hero {
         height: auto;
-        padding-top: 4rem;  
+        padding-top: 4rem;   /* تعديل مهم */
         padding-bottom: 2rem;
         margin-bottom: 3rem;
     }

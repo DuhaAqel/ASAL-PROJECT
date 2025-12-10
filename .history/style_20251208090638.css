@@ -667,18 +667,8 @@ body
     text-align: center;
 }
 
-
-.burger-menu {
-    display: none;
-    font-size: 1.8rem;
-    cursor: pointer;
-    color: black;
-}
-
-
 @media (max-width: 768px) {
 
-    
     /* NAV BAR */
     #navContainer {
         flex-direction: column;
@@ -688,74 +678,44 @@ body
 
     #navBarList {
         flex-wrap: wrap;
-        gap: 0;
+        gap: 1rem;
         font-size: 0.9rem;
-        margin-top: 0 !important;
     }
 
     #navBarLogo {
         height: 4vh;
     }
 
-      .burger-menu {
-        display: block;
-    }
-      #navBarList {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        background: white;
-        text-align: center;
-        padding: 1rem 0;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        position: absolute;
-        top: 70px;
-        left: 0;
-    }
-
-     #navBarList.show {
-        display: flex;
-    }
-      #navContainer {
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0 1rem;
-    }
-    #navBarIcons {
-        display: none;
-    }
+    /* HERO SECTION */
     .hero {
         height: auto;
-        padding-top: 4rem;  
-        padding-bottom: 2rem;
-        margin-bottom: 3rem;
+        padding-top: 10rem;
+        padding-bottom: 3rem;
+        margin-bottom: 5rem;
     }
 
     .heroContainer {
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
         padding-left: 0;
         text-align: center;
-        align-items: center;
     }
 
     .heroContainerContent h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .heroContainerContent p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .heroContainerContent button {
-        width: 70%;        /* كان 40vw = غلط */
-        max-width: 250px;
+        width: 40vw;
         margin: auto;
     }
 
     .heroContainerContentImg img {
-        width: 80%;       /* تعديل مهم */
-        height: auto;
+        height: 35vh;
     }
 
     /* ABOUT SECTION */
@@ -765,7 +725,7 @@ body
     }
 
     .aboutContainerImg img {
-        height: auto;     /* بدل 40vh */
+        height: 40vh;
         width: 100%;
         object-fit: cover;
     }
@@ -777,18 +737,17 @@ body
     }
 
     .aboutContainerContent button {
-        width: 70%;
-        max-width: 250px;
+        width: 40vw;
         margin: auto;
     }
 
     /* SERVICES */
     .serviceContainerContent {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .serviceContainerContent img {
-        width: 30%;
+        width: 25%;
     }
 
     /* ARRIVAL SECTION */
@@ -798,12 +757,11 @@ body
     }
 
     .arrivalContainerRowContent {
-        width: 80%;
+        width: 60vw;
     }
 
     .arrivalButton {
-        width: 70%;
-        max-width: 250px;
+        width: 40vw;
     }
 
     /* REVIEWS */
@@ -813,26 +771,23 @@ body
     }
 
     .reviewsContainerContent {
-        width: 90%;
+        width: 80vw;
     }
 
     /* DIGITAL BOOK BANNER */
     .digitalBook {
-        height: auto;
-        padding: 2rem 0;
-        display: flex;
-        justify-content: center;
+        height: 40vh;
     }
 
     .digitalBookButton {
-        margin: 0;             /* إلغاء الـ 25vh */
-        width: 70%;
-        max-width: 250px;
+        margin-left: 1rem;
+        margin-top: 25vh;
+        width: 40vw;
     }
 
     /* BLOG */
     .blogInnerContainer {
-        width: 95vw;
+        width: 85vw;
     }
 
     /* FOOTER */
